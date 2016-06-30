@@ -1,4 +1,4 @@
 # bootstrap
-Learning bootstrao features
+Learning bootstrap features
 
 Practicing with Bootstrap.
