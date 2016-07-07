@@ -3,9 +3,11 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--Allows website to render properly on mobile devices -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/my_style.css">
-    <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+    <!--Used to run features that require JavaScript files like modals -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <title>Jonathan Blanco's portfolio</title>
   </head>
@@ -35,31 +37,31 @@
       </div>
       <div class="row text-center">
         <div class="col-md-6">
-          <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#project1">
+          <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#top-left-corner">
           <h3>Appify</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-6">
-          <img src="http://placekitten.com/555/300" class="img-responsive">
+          <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#top-right-corner">
           <h3>Appify</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-6">
-          <img src="http://placekitten.com/555/300" class="img-responsive">
+          <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#bottom-left-corner">
           <h3>Appify</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-6">
-          <img src="http://placekitten.com/555/300" class="img-responsive">
+          <img src="http://placekitten.com/555/300" class="img-responsive" data-toggle="modal" data-target="#bottom-right-corner">
           <h3>Appify</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
       </div>
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!--1st Modal: top-left corner -->
+    <div class="modal fade" id="top-left-corner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -67,7 +69,58 @@
           </div>
           <div class="modal-body">
             <img class="img-responsive" src="http://placekitten.com/555/300">
-            This was my first project in this class. I learned a lot about HTML and CSS.
+            Description: Here goes the description of my 1st work.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--2nd Modal: top-right corner -->
+    <div class="modal fade" id="top-right-corner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/555/300">
+            Description: Here goes the description of my 2nd work.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--3rd Modal: bottom-left corner -->
+    <div class="modal fade" id="bottom-left-corner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/555/300">
+            Description: Here goes the description of my 3rd work.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--4th Modal: bottom-right corner -->
+    <div class="modal fade" id="bottom-right-corner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/555/300">
+            Description: Here goes the description of my 4th work.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
